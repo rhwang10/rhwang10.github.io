@@ -1,0 +1,17 @@
+languages:
+  - item: Python
+  - item: Javascript
+  - item: SQL
+  - item: PromQL
+
+tools:
+  - item: Docker
+  - item: Django
+  - item: Grafana
+  - item: Prometheus
+  - item: Git, GitHub
+  - item: Chrome DevTools
+
+knowledge:
+  - item: CI/CD
+  - item: Web frameworks

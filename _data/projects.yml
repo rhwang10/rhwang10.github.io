@@ -3,35 +3,53 @@
   description: Django application to securely authenticate a user with a personal login and their Spotify account, and import their playlist and song data.
   builtWith:
     - item: Python
+      class: Language
     - item: Django
+      class: Tool
     - item: Postgres
+      class: Tool
     - item: Spotify API
+      class: Knowledge
 
 - name: newsSpot
   github: https://github.com/rhwang10/newsSpot
   description: Web application developed in the Vue.js framework to automagically link recently published NYTimes news articles to relevant Reddit threads.
   builtWith:
     - item: Javascript
+      class: Language
     - item: Vue
+      class: Tool
     - item: Axios
+      class: Knowledge
     - item: Reddit Search API
+      class: Knowledge
     - item: New York Times Developer API
+      class: Knowledge
 
 - name: Classifer Based Neural Networks
   github: https://github.com/rhwang10/Classifier-based-Neural-Networks
   description: Architecturing and developing a classifier based neural network, based on prior literature about deep forest techniques.
   builtWith:
     - item: Python
+      class: Language
     - item: NumPy
+      class: Knowledge
     - item: Scikit-learn
+      class: Knowledge
     - item: Pandas
+      class: Knowledge
     - item: Keras
+      class: Knowledge
 
 - name: Classification of microarray data
   github: https://github.com/rhwang10/Comparative-performance-analysis-of-Key-classification-algorithms-on-Microarray-Data
   description: Comparing the performance of classification algorithms on diverse clinical microarray datasets.
   builtWith:
     - item: Python
+      class: Language
     - item: NumPy
+      class: Knowledge
     - item: Scikit-learn
+      class: Knowledge
     - item: Matplotlib
+      class: Knowledge

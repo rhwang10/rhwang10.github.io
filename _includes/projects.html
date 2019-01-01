@@ -1,0 +1,23 @@
+<section class="projects">
+  <div class="projects__title">Projects</div>
+
+  <div class="projects__total">
+    {% for project in site.data.projects %}
+    <div class="project__details">
+      <span class="project_name">{{ project.name }}</span>
+      <span class="project_description">{{ project.description }}</span>
+      {% for item in project.builtWith %}
+        <ul>
+        {% if item.class == "Language" %}
+          <li class="item_language">{{ item.item }}</li>
+        {% elsif item.class == "Tool" %}
+          <li class="item_tool">{{ item.item }}</li>
+        {% else %}
+          <li class="item_knowledge">{{ item.item }}</li>
+        {% endif %}
+        </ul>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

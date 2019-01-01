@@ -21,10 +21,22 @@
   /* font-style: normal */
 }
 
+@font-face{
+  font-family:'Apercu-Bold';
+  src:url(../fonts/Apercu/Apercu-Bold.eot);
+  src:url(../fonts/Apercu/Apercu-Bold.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/Apercu/Apercu-Bold.woff2) format("woff2"),
+  url(../fonts/Apercu/Apercu-Bold.woff) format("woff"),
+  url(../fonts/Apercu/Apercu-Bold.ttf) format("truetype"),
+  url(../fonts/Apercu/Apercu-Bold.svg#Apercu-Bold) format("svg");
+  /* font-style: normal */
+}
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-size: 100%;
 }
 
 *, *:before, *:after {
@@ -39,11 +51,13 @@ header {
 
 body {
   line-height: 1.5;
+  font-family: Apercu;
+  color: rgba(255,255,255,.75);
+  background-color: rgb(25,25,25);
 }
 
 span {
   font-family:Apercu;
-
 }
 
 .emoji {
@@ -86,6 +100,11 @@ span {
   margin-left: 100px;
 }
 
+.intro.h2.intro__paragraph.name {
+  font-family: Apercu-Bold;
+  font-weight: 100;
+}
+
 .intro h3.intro__under {
   align-self: stretch;
   font-family: Apercu-Light;
@@ -109,16 +128,25 @@ span {
   display: inline-flex;
   font-family:Apercu-Light;
   width: 4%;
-  font-size: 2rem;
+  font-size: 2vw;
   vertical-align: text;
 
 }
 
+.odometer-text {
+  border: 3px solid #E18728;
+
+}
+
 section.aboutme {
-  display: flex;
+  display: inline-flex;
   font-family:Apercu;
   flex-direction: column;
   align-items: flex-start;
   width: 50%;
   margin-left: 100px;
+}
+
+section.aboutme.aboutme__title {
+  font-size: 2rem;
 }

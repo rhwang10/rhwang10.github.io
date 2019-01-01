@@ -1,0 +1,37 @@
+- name: Cheetah
+  github: https://github.com/rhwang10/cheetah
+  description: Django application to securely authenticate a user with a personal login and their Spotify account, and import their playlist and song data.
+  builtWith:
+    - item: Python
+    - item: Django
+    - item: Postgres
+    - item: Spotify API
+
+- name: newsSpot
+  github: https://github.com/rhwang10/newsSpot
+  description: Web application developed in the Vue.js framework to automagically link recently published NYTimes news articles to relevant Reddit threads.
+  builtWith:
+    - item: Javascript
+    - item: Vue
+    - item: Axios
+    - item: Reddit Search API
+    - item: New York Times Developer API
+
+- name: Classifer Based Neural Networks
+  github: https://github.com/rhwang10/Classifier-based-Neural-Networks
+  description: Architecturing and developing a classifier based neural network, based on prior literature about deep forest techniques.
+  builtWith:
+    - item: Python
+    - item: NumPy
+    - item: Scikit-learn
+    - item: Pandas
+    - item: Keras
+
+- name: Classification of microarray data
+  github: https://github.com/rhwang10/Comparative-performance-analysis-of-Key-classification-algorithms-on-Microarray-Data
+  description: Comparing the performance of classification algorithms on diverse clinical microarray datasets.
+  builtWith:
+    - item: Python
+    - item: NumPy
+    - item: Scikit-learn
+    - item: Matplotlib

@@ -11,6 +11,7 @@ tools:
   - item: Prometheus
   - item: Git, GitHub
   - item: Chrome DevTools
+  - item: PostgreSQL
 
 knowledge:
   - item: CI/CD

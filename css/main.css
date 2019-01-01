@@ -320,6 +320,7 @@ section.projects {
   font-family:Apercu;
   margin-top: 150px;
   margin-left: 100px;
+  max-width: 1040px;
 }
 
 section.projects .projects__title {
@@ -334,6 +335,11 @@ section.projects .projects__total {
 section.projects .projects__total .project__details .project_name {
   font-family: Apercu-Bold;
   font-size: 2rem;
+}
+
+section.projects .projects__total .project__details .project_github {
+  font-family: Apercu-Light;
+  float: right;
 }
 
 section.projects .projects__total .project__details .project_description {

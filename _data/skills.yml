@@ -1,8 +1,8 @@
 languages:
-  - item: Python
+  - item: PromQL
   - item: Javascript
   - item: SQL
-  - item: PromQL
+  - item: Python
 
 tools:
   - item: Docker

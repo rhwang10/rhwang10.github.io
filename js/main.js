@@ -10,5 +10,5 @@
 
 
 setTimeout(function() {
-  odometer.innerHTML = 456;
+  odometer.innerHTML = 2;
 }, 1000);

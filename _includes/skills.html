@@ -1,0 +1,26 @@
+<section class="skills">
+  <div class="skills__title">Skills and Technologies</div>
+  <div class="skills__total">
+    <div class="skills__languages"><span class="heading">Languages</span>
+      <ul>
+        {% for language in site.data.skills.languages %}
+        <li>{{ language.item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="skills__tools"><span class="heading">Tools</span>
+      <ul>
+        {% for tool in site.data.skills.tools %}
+        <li>{{ tool.item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="skills__knowledge"><span class="heading">Knowledge</span>
+      <ul>
+        {% for knowledge in site.data.skills.knowledge %}
+        <li>{{ knowledge.item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

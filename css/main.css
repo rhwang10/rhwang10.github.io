@@ -29,7 +29,6 @@
   url(../fonts/Apercu/Apercu-Bold.woff) format("woff"),
   url(../fonts/Apercu/Apercu-Bold.ttf) format("truetype"),
   url(../fonts/Apercu/Apercu-Bold.svg#Apercu-Bold) format("svg");
-  /* font-style: normal */
 }
 
 html {
@@ -57,7 +56,6 @@ body {
   display: inline-block;
   background-size: contain;
   margin: 0 10px;
-  /* vertical-align: text-top; */
   background-position: center;
 }
 
@@ -66,7 +64,7 @@ header.intro {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  border: 3px solid #A18728;
+  /* border: 3px solid #A18728; */
   font-family: Apercu;
   justify-content: space-between;
   max-width: 1080px;
@@ -84,7 +82,7 @@ header.intro h1.intro__hello {
 header.intro h2.intro__paragraph {
   display: block;
   font-family:Apercu-Light;
-  border: 3px solid #E18728;
+  /* border: 3px solid #E18728; */
   font-weight: 300;
   max-width: 500px;
   margin-left: 100px;
@@ -102,9 +100,9 @@ header.intro h3.intro__under {
   /* align-self: stretch; */
   display: block;
   font-family: Apercu-Light;
-  border: 3px solid #E18728;
+  /* border: 3px solid #E18728; */
   font-weight: 300;
-  max-width: 600px;
+  max-width: 650px;
   margin-left: 100px;
   margin-bottom: 100px;
   font-size: 1rem;
@@ -119,30 +117,154 @@ header.intro h3.intro__under .emoji.coffee {
 }
 
 header.intro #odometer {
-  border: 3px solid #E18728;
+  /* border: 3px solid #E18728; */
   font-family:Apercu-Light;
   max-width: 60px;
 }
 
 header.intro .odometer-text {
-  border: 3px solid #E18728;
+  /* border: 3px solid #E18728; */
+  margin-left: 5px;
 }
 
 .section {
+  display: flex;
   justify-content: center;
+  /* margin-top: 150px;
+  margin-left: 100px; */
 }
 
 section.aboutme {
-  border: 3px solid #E18728;
-  /* position: relative; */
+  /* border: 3px solid #E18728; */
   display: block;
   font-family:Apercu;
-  align-items: flex-start;
+  margin-top: 150px;
   margin-left: 100px;
 }
 
-section.aboutme.aboutme__title {
-  border: 3px solid #E18728;
+section.aboutme .aboutme__title {
+  /* border: 3px solid #E18728; */
+  max-width: 800px;
+  font-size: 3rem;
+  /* text-decoration: underline; */
+}
 
-  font-size: 2rem;
+section.aboutme .aboutme__background {
+  /* border: 3px solid #E18728; */
+  max-width: 800px;
+  /* margin-left: 50px; */
+  display: block;
+  font-family: Apercu-Light;
+  text-align: left;
+}
+
+section.experience {
+  display: block;
+  font-family: Apercu;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+section.experience .experience__title {
+  max-width: 800px;
+  font-size: 3rem;
+}
+
+section.skills {
+  display: block;
+  font-family:Apercu;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+section.skills .skills__title {
+  /* border: 3px solid #E18728; */
+  max-width: 800px;
+  font-size: 3rem;
+  /* text-decoration: underline; */
+}
+
+section.skills .skills__total {
+
+}
+
+section.skills .skills__total ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+section.skills .skills__total .skills__languages .heading {
+  font-family: Apercu-Bold;
+  font-weight: 300;
+  text-decoration: underline;
+
+}
+
+section.skills .skills__total .skills__tools .heading {
+  font-family: Apercu-Bold;
+  font-weight: 300;
+  text-decoration: underline;
+
+}
+
+section.skills .skills__total .skills__knowledge .heading {
+  font-family: Apercu-Bold;
+  font-weight: 300;
+  text-decoration: underline;
+
+}
+
+section.skills .skills__total .skills__languages {
+  float: left;
+  width: 33.33%;
+}
+section.skills .skills__total .skills__tools {
+  float: left;
+  width: 33.33%;
+}
+section.skills .skills__total .skills__knowledge {
+  float: left;
+  width: 33.33%;
+}
+
+@media screen and (max-width: 600px) {
+  section.skills .skills__total {
+
+  }
+
+  section.skills .skills__total ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  section.skills .skills__total .skills__languages .heading {
+    font-family: Apercu-Bold;
+    font-weight: 300;
+    text-decoration: underline;
+
+  }
+
+  section.skills .skills__total .skills__tools .heading {
+    font-family: Apercu-Bold;
+    font-weight: 300;
+    text-decoration: underline;
+
+  }
+
+  section.skills .skills__total .skills__knowledge .heading {
+    font-family: Apercu-Bold;
+    font-weight: 300;
+    text-decoration: underline;
+
+  }
+
+  section.skills .skills__total .skills__languages {
+    width: 100%;
+
+  }
+  section.skills .skills__total .skills__tools {
+    width: 100%;
+  }
+  section.skills .skills__total .skills__knowledge {
+    width: 100%;
+  }
 }

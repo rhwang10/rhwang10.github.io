@@ -80,8 +80,16 @@ a {
   transition: border 500ms ease;
 }
 
+.nightmode a {
+  border-bottom: 2px solid rgba(255,255,255,0);
+}
+
 a:hover {
   border-bottom: 2px solid rgba(25,25,25,1);
+}
+
+.nightmode a:hover {
+  border-bottom: 2px solid rgba(255,255,255,1);
 }
 
 .emoji {
@@ -438,5 +446,15 @@ section.projects .projects__total .project__details li.item_knowledge {
 footer {
   margin-top: 150px;
   margin-left: 100px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+}
+
+footer .footer__contact .contact_total {
+  display: inline;
+  margin-left: 450px;
+}
+
+footer .footer__contact .footer_contact_details {
+  display: inline;
+  font-size: 2rem;
 }

@@ -318,9 +318,9 @@ section.skills .skills__knowledge {
 section.projects {
   display: block;
   font-family:Apercu;
-  margin-top: 150px;
+  margin-top: 130px;
   margin-left: 100px;
-  max-width: 1040px;
+  max-width: 1000px;
 }
 
 section.projects .projects__title {
@@ -340,33 +340,44 @@ section.projects .projects__total .project__details .project_name {
 section.projects .projects__total .project__details .project_github {
   font-family: Apercu-Light;
   float: right;
+  align-items: baseline;
 }
 
 section.projects .projects__total .project__details .project_description {
   display: block;
   font-family: Apercu-Light;
+  margin-bottom: 50px;
 }
 
 section.projects .projects__total .project__details {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 section.projects .projects__total .project__details ul {
   font-family: Apercu-Light;
   list-style-type: none;
   display: inline;
+  text-transform: lowercase;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
-
-/* section.projects .projects__total .project__details li {
-  display: inline;
-  margin-top: 30px;
-} */
 
 section.projects .projects__total .project__details li.item_language {
   display: inline;
   margin-top: 30px;
   color: rgb(76, 217, 100);
 }
+
+/* section.projects .projects__total .project__details li.item_language:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  transition-property: text-decoration;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+} */
 
 section.projects .projects__total .project__details li.item_tool {
   display: inline;

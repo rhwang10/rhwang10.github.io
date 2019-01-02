@@ -13,3 +13,8 @@
 setTimeout(function() {
   odometer.innerHTML = 3;
 }, 1000);
+
+// Nightmode
+document.querySelector('header.intro .night_mode .emoji.moon').addEventListener('click', function() {
+  document.body.classList.toggle('nightmode');
+});

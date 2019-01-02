@@ -51,20 +51,28 @@ html {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
+  transition: .10s ease-in;
 }
 
 body {
   line-height: 1.5;
   font-family: Apercu;
+  background-color: rgba(255,255,255,.75);
+  color: rgb(25,25,25);
+  border-color: rgba(25,25,25,.75);
+}
+
+.nightmode {
   color: rgba(255,255,255,.75);
   background-color: rgb(25,25,25);
+  border-color: rgba(255,255,255,.75);
 }
 
 a {
   font-family: inherit;
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid rgba(192, 192, 192, 0);
+  border-bottom: 2px solid rgba(25,25,25,0);
   -webkit-transition: border 500ms ease;
   -moz-transition: border 500ms ease;
   -ms-transition: border 500ms ease;
@@ -73,7 +81,7 @@ a {
 }
 
 a:hover {
-  border-bottom: 2px solid rgba(192, 192, 192, 1);
+  border-bottom: 2px solid rgba(25,25,25,1);
 }
 
 .emoji {
@@ -99,9 +107,17 @@ header.intro h1.intro__hello {
   display: block;
   margin-left: 100px;
   margin-top: 150px;
-  border: 3px solid #E18728;
+  /* border: 3px solid #E18728; */
   max-width: 500px;
   font-size: 3rem;
+}
+
+header.intro .night_mode .emoji.moon {
+  background-image: url(../images/moon.png);
+  width: 50px;
+  height: 50px;
+  margin-left: 100px;
+  vertical-align: text-bottom;
 }
 
 header.intro h2.intro__paragraph {
@@ -145,12 +161,21 @@ header.intro h3.intro__under {
   font-size: 1rem;
 }
 
+header.intro h3.intro__under .vertical_space {
+  display: inline;
+  border-left: 2px solid;
+  height: 40px;
+  margin-right: 10px;
+}
+
 header.intro h3.intro__under .emoji.snek {
   background-image: url(../images/snek.png);
+  vertical-align: text-bottom;
 }
 
 header.intro h3.intro__under .emoji.coffee {
   background-image: url(../images/coffee.png);
+  vertical-align: text-bottom;
 }
 
 header.intro #odometer {
@@ -364,6 +389,9 @@ section.projects .projects__total .project__details .project_name {
 section.projects .projects__total .project__details .project_github {
   font-family: Apercu-Light;
   align-items: baseline;
+}
+
+section.projects .projects__total .project__details a {
   margin-left: 10px;
 }
 
@@ -382,7 +410,7 @@ section.projects .projects__total .project__details ul {
   list-style-type: none;
   display: inline;
   text-transform: lowercase;
-  border: 2px solid white;
+  border: 2px solid;
   border-radius: 25px;
   padding: 10px;
   margin-left: 5px;
@@ -410,4 +438,5 @@ section.projects .projects__total .project__details li.item_knowledge {
 footer {
   margin-top: 150px;
   margin-left: 100px;
+  margin-bottom: 150px;
 }

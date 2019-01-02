@@ -1,7 +1,7 @@
 /* Global */
 .line-1 {
     position: relative;
-    border-right: 2px solid rgba(255,255,255,.75);
+    border-right: 2px solid;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
@@ -17,6 +17,6 @@
   to{width: 6em;}
 }
 @keyframes blinkTextCursor {
-  from{border-right-color: rgba(255,255,255,.75);}
+  from{border-right-color: inherit;}
   to{border-right-color: transparent;}
 }

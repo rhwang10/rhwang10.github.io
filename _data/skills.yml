@@ -9,6 +9,7 @@ languages:
 tools:
   - item: React
   - item: Django
+  - item: Jekyll
   - item: Grafana
   - item: Prometheus
   - item: Git, GitHub

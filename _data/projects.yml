@@ -14,6 +14,19 @@
     - item: Axios
       class: Knowledge
 
+- name: GitHub Pages Personal website
+  github: https://github.com/rhwang10/rhwang10.github.io
+  description: GitHub pages personal website, the one you're currently looking at!
+  builtWith:
+    - item: HTML
+      class: Language
+    - item: CSS
+      class: Language
+    - item: Javascript
+      class: Language
+    - item: Jekyll
+      class: Tool
+
 - name: Cheetah
   github: https://github.com/rhwang10/cheetah
   description: Django application to securely authenticate a user with a personal login and their Spotify account, and import their playlist and song data.

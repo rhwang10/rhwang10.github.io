@@ -1,3 +1,19 @@
+- name: New York Times Top News Dashboard
+  github: https://github.com/rhwang10/news-dashboard
+  description: React single page application to display news cards from the Top News New York Times API.
+  link: https://nytimes-dashboard.herokuapp.com/
+  builtWith:
+    - item: Javascript
+      class: Language
+    - item: React
+      class: Tool
+    - item: New York Times Top News API
+      class: Knowledge
+    - item: Heroku
+      class: Knowledge
+    - item: Axios
+      class: Knowledge
+
 - name: Cheetah
   github: https://github.com/rhwang10/cheetah
   description: Django application to securely authenticate a user with a personal login and their Spotify account, and import their playlist and song data.

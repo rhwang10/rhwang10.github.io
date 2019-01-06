@@ -7,12 +7,13 @@ languages:
   - item: CSS3
 
 tools:
-  - item: Docker
+  - item: React
   - item: Django
   - item: Grafana
   - item: Prometheus
   - item: Git, GitHub
   - item: Chrome DevTools
+  - item: Docker
   - item: PostgreSQL
 
 knowledge:

@@ -1,6 +1,6 @@
 <section class="projects">
   <div class="projects__title">Projects</div>
-
+  <p>Please view some of the work I have done. Some projects will have links if they are deployed, but all projects will have links to GitHub.</p>
   <div class="projects__total">
     {% for project in site.data.projects %}
     <div class="project__details">
@@ -8,6 +8,11 @@
       <a href="{{ project.github }}">
         <span class="project_github">GitHub</span>
       </a>
+      {% if project.link %}
+      <a href="{{ project.link }}">
+        <span class="project_github">Link to project</span>
+      </a>
+      {% endif %}
       <span class="project_description">{{ project.description }}</span>
       {% for item in project.builtWith %}
         <ul>

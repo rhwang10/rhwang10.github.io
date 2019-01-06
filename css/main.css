@@ -444,17 +444,29 @@ section.projects .projects__total .project__details li.item_knowledge {
 }
 
 footer {
+  position: relative;
   margin-top: 150px;
   margin-left: 100px;
   margin-bottom: 100px;
+  width: 100%;
+}
+
+footer .footer__contact {
+  display: flex;
+  justify-content: space-between;
 }
 
 footer .footer__contact .contact_total {
-  display: inline;
-  margin-left: 450px;
+  display: inline-flex;
+  float: right;
+  margin-right: 150px;
+  font-size: 1rem;
+}
+
+footer .footer__contact .contact_total .contact-link {
+  padding-right: 100px;
 }
 
 footer .footer__contact .footer_contact_details {
-  display: inline;
   font-size: 2rem;
 }

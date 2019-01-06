@@ -4,7 +4,7 @@
   <div class="experience__total">
     {% for experience in site.data.experience %}
     <div class="experience__details">
-      <a id="experience_link" href="{{ experience.url }}">
+      <a id="experience_link" href="{{ experience.url }}" target="_blank">
         <span class="experience_company">{{ experience.company }}</span>
       </a>
       <span class="experience_timerange">{{ experience.timerange }}</span>
@@ -13,7 +13,7 @@
     {% endfor %}
   </div>
 
-  <a href="../resume.pdf">
+  <a href="../resume.pdf" target="_blank">
     <span class="experience_resume">Resume<span class="emoji paper"></span></span>
   </a>
 </section>

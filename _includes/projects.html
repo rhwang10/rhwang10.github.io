@@ -5,11 +5,11 @@
     {% for project in site.data.projects %}
     <div class="project__details">
       <span class="project_name">{{ project.name }}</span>
-      <a href="{{ project.github }}">
+      <a href="{{ project.github }}" target="_blank">
         <span class="project_github">GitHub</span>
       </a>
       {% if project.link %}
-      <a href="{{ project.link }}">
+      <a href="{{ project.link }}" target="_blank">
         <span class="project_github">Link to project</span>
       </a>
       {% endif %}

@@ -11,7 +11,7 @@
 
 // Change this to set the coffee counter!
 setTimeout(function() {
-  odometer.innerHTML = 40;
+  odometer.innerHTML = 41;
 }, 1000);
 
 // Nightmode

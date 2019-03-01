@@ -1,14 +1,15 @@
 - company: Astronomer
   url: https://www.astronomer.io/
-  timerange: August 2018 - Present
+  timerange: August 2018 - February 2019
   position: Software Engineer
-
+  blurb: I worked across the stack, implementing and testing platform features that enable organizations to easily adapt and productionize Apache Airflow into their own data ecosystems. My primary responsibility was to improve the monitoring around running Airflow on Kubernetes, including piping Airflow logs to Elasticsearch and providing live platform resource usage updates through Grafana. Technologies used include Docker, Kubernetes, Prometheus, Grafana, Fluentd, ElasticSearch and Kibana.
 - company: Everywear
   url: https://everywear.com/
   timerange: June 2017 - August 2017
   position: Software Engineering Intern
-
+  blurb:
 - company: Swarthmore College
   url: https://www.formicalab.org/copy-of-people-projects
   timerange: June 2016 - August 2016
   position: HHMI Research Assistant
+  blurb:

@@ -245,11 +245,18 @@ section.experience .experience__total .experience__details .experience_company {
   font-family: Apercu-Bold;
   font-weight: 300;
 }
+
 section.experience .experience__total .experience__details .experience_timerange {
   font-family: Apercu-Italic;
   float: right;
 }
+
 section.experience .experience__total .experience__details .experience_position {
+  font-family: Apercu-Light;
+  display: block;
+}
+
+section.experience .experience__total .experience__details .experience_blurb {
   font-family: Apercu-Light;
   display: block;
 }

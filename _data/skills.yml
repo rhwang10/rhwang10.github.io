@@ -1,15 +1,14 @@
 languages:
   - item: Python
-  - item: PromQL
+  - item: Java
   - item: SQL
   - item: Javascript
   - item: HTML
   - item: CSS3
 
 tools:
+  - item: Apache Airflow
   - item: React
-  - item: Django
-  - item: Jekyll
   - item: Grafana
   - item: Prometheus
   - item: Git, GitHub
@@ -20,6 +19,7 @@ tools:
 knowledge:
   - item: CI/CD
   - item: Web frameworks
-  - item: RESTful APIs
-  - item: ML libraries
+  - item: API design
+  - item: System architecture
+  - item: Databases
   - item: Data pipelines

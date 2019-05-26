@@ -9,16 +9,14 @@ languages:
 tools:
   - item: Apache Airflow
   - item: React
-  - item: Grafana
-  - item: Prometheus
   - item: Git, GitHub
   - item: Chrome DevTools
   - item: Docker
-  - item: PostgreSQL
+  - item: SQL Databases
+  - item: Redis
+  - item: AWS/Google cloud
 
 knowledge:
-  - item: CI/CD
-  - item: Web frameworks
   - item: API design
   - item: System architecture
   - item: Databases

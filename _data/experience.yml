@@ -1,13 +1,13 @@
 - company: Attentive
   url: https://attentivemobile.com
   timerange: March 2019 - Present
-  position: Software Engineer (Messages Team)
-  blurb: Engineer on the message sending team
+  position: Software Engineer, Messages
+  blurb: Message sending
 - company: Astronomer
   url: https://www.astronomer.io/
   timerange: August 2018 - February 2019
   position: Software Engineer
-  blurb: I worked across the stack, implementing and testing platform features that enable organizations to easily adapt and productionize Apache Airflow into their own data ecosystems. My primary responsibility was to improve the monitoring around running Airflow on Kubernetes, including piping Airflow logs to Elasticsearch and providing live platform resource usage updates through Grafana. Technologies used include Docker, Kubernetes, Prometheus, Grafana, Fluentd, ElasticSearch and Kibana.
+  blurb: Worked across the stack, implementing and testing platform features that enable organizations to easily adapt and productionize Apache Airflow into their own data ecosystems. My primary responsibility was to improve the monitoring around running Airflow on Kubernetes, including piping Airflow logs to Elasticsearch and providing live platform resource usage updates through Grafana. Technologies used include Docker, Kubernetes, Prometheus, Grafana, Fluentd, ElasticSearch and Kibana.
 - company: Everywear
   url: https://everywear.com/
   timerange: June 2017 - August 2017

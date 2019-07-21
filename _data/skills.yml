@@ -2,22 +2,20 @@ languages:
   - item: Python
   - item: Java
   - item: SQL
-  - item: Javascript
   - item: HTML
   - item: CSS3
 
 tools:
   - item: Apache Airflow
-  - item: React
+  - item: AWS Lambda
+  - item: AWS SQS
   - item: Git, GitHub
-  - item: Chrome DevTools
   - item: Docker
-  - item: SQL Databases
-  - item: Redis
-  - item: AWS/Google cloud
+  - item: SQL
 
 knowledge:
   - item: API design
   - item: System architecture
   - item: Databases
+  - item: AWS/Google cloud
   - item: Data pipelines

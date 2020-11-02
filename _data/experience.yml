@@ -5,9 +5,9 @@
   blurb: Alexa Trust
 - company: Attentive
   url: https://attentivemobile.com
-  timerange: March 2019 - Present
-  position: Software Engineer, Messages
-  blurb: Message sending
+  timerange: March 2019 - May 2020
+  position: Software Engineer, Campaign Messages
+  blurb: I worked on the Campaign messages team - during my tenure, I worked on several high impact projects, including a migration of our Postgres event database, holding more than 16TB of clickstream and analytics data, migrating the ETL for handling these events onto AWS Lambda and SQS, and rewriting the core messages API, responsible for powering the company's most robust product.
 - company: Astronomer
   url: https://www.astronomer.io/
   timerange: August 2018 - February 2019

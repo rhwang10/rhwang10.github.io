@@ -2,8 +2,6 @@ languages:
   - item: Python
   - item: Java
   - item: SQL
-  - item: HTML
-  - item: CSS3
 
 tools:
   - item: Apache Airflow
@@ -12,6 +10,10 @@ tools:
   - item: Git, GitHub
   - item: Docker
   - item: SQL
+  - item: Junit
+  - item: Pytest
+  - item: MySQL
+  - item: PostreSQL
 
 knowledge:
   - item: API design

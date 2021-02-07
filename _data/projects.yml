@@ -1,6 +1,7 @@
-- name: Apache Airflow Elasticsearch Log handler improvements
-  link: https://issues.apache.org/jira/browse/AIRFLOW-3370
+- name: Apache Airflow ES log handler improvements
+  github: https://github.com/apache/airflow
   description: Enhanced the existing elasticsearch log handler in the Apache Airflow project with capabitilities to make log messages more remote-storage friendly
+  link: https://issues.apache.org/jira/browse/AIRFLOW-3370
   builtWith:
     - item: Python
       class: Language

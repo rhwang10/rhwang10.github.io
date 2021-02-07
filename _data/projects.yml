@@ -1,3 +1,12 @@
+- name: Apache Airflow Elasticsearch Log handler improvements
+  link: https://issues.apache.org/jira/browse/AIRFLOW-3370
+  description: Enhanced the existing elasticsearch log handler in the Apache Airflow project with capabitilities to make log messages more remote-storage friendly
+  builtWith:
+    - item: Python
+      class: Language
+    - item: Apache Airflow
+      class: Tool
+
 - name: New York Times Top News Dashboard
   github: https://github.com/rhwang10/news-dashboard
   description: React single page application to display news cards from the Top News New York Times API.

@@ -7,7 +7,7 @@
   url: https://attentivemobile.com
   timerange: March 2019 - May 2020
   position: Software Engineer, Campaign Messages
-  blurb: I worked on the Campaign messages team - during my tenure, I worked on several high impact projects, including a migration of our Postgres event database from a monolithic store holding more than 16TB of clickstream and analytics data to separate partitions each containing a subset of event data, involving migrating the ETL for handling these events onto AWS Lambda and SQS, and rewriting the core messages API - responsible for powering the company's most robust product, to be more performant and durable.
+  blurb: I worked on the Campaign messages team - during my tenure, I worked on several high impact projects, including a migration of our Postgres event database from a monolithic store holding more than 16TB of clickstream and analytics data to separate partitions each containing a subset of event data, migrating the ETL for handling these events onto AWS Lambda and SQS, and rewriting the core messages API - responsible for powering the company's most robust product, to be more performant and durable.
 - company: Astronomer
   url: https://www.astronomer.io/
   timerange: August 2018 - February 2019

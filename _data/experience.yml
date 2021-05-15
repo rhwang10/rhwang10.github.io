@@ -1,13 +1,11 @@
 - company: Spotify
   url: http://spotify.com/
   timerange: April 2021 - Present
-  position: Software Engineer
-  blurb: Backend
+  position: Software Engineer, Backend
 - company: Amazon
   url: https://www.amazon.jobs/en/
   timerange: May 2020 - March 2021
-  position: Software Development Engineer
-  blurb: Alexa Trust
+  position: Software Development Engineer, Alexa Trust
 - company: Attentive
   url: https://attentivemobile.com
   timerange: March 2019 - May 2020

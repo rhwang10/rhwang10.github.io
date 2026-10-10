@@ -1,20 +1,17 @@
-<section class="experience">
-  <div class="experience__title">Work Experience</div>
-
-  <div class="experience__total">
-    {% for experience in site.data.experience %}
-    <div class="experience__details">
-      <a id="experience_link" href="{{ experience.url }}" target="_blank">
-        <span class="experience_company">{{ experience.company }}</span>
-      </a>
-      <span class="experience_timerange">{{ experience.timerange }}</span>
-      <span class="experience_position">{{ experience.position }}</span>
-      <span class="experience_blurb">{{ experience.blurb }}</span>
-    </div>
-    {% endfor %}
-  </div>
-
-  <a href="../resume.pdf" target="_blank">
-    <span class="experience_resume">Resume<span class="emoji paper"></span></span>
-  </a>
+<section class="experience" aria-labelledby="experience-title">
+  <h2 id="experience-title">Work Experience</h2>
+  <ol class="jobs">
+    {%- for job in site.data.experience %}
+    <li class="job">
+      <div class="job__head">
+        <h3 class="job__company"><a href="{{ job.url | escape }}">{{ job.company | escape }}</a></h3>
+        <p class="job__dates">{{ job.timerange | escape }}</p>
+      </div>
+      <p class="job__position">{{ job.position | escape }}</p>
+      {%- if job.blurb %}
+      <p class="job__blurb">{{ job.blurb | escape }}</p>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+  </ol>
 </section>

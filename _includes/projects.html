@@ -1,31 +1,18 @@
-<section class="projects">
-  <div class="projects__title">Projects</div>
-  <p>Please view some of the work I have done. Some projects will have links if they are deployed, but all projects will have links to GitHub.</p>
-  <div class="projects__total">
-    {% for project in site.data.projects %}
-    <div class="project__details">
-      <span class="project_name">{{ project.name }}</span>
-      <a href="{{ project.github }}" target="_blank">
-        <span class="project_github">GitHub</span>
-      </a>
-      {% if project.link %}
-      <a href="{{ project.link }}" target="_blank">
-        <span class="project_github">Link to project</span>
-      </a>
-      {% endif %}
-      <span class="project_description">{{ project.description }}</span>
-      {% for item in project.builtWith %}
-        <ul>
-        {% if item.class == "Language" %}
-          <li class="item_language">{{ item.item }}</li>
-        {% elsif item.class == "Tool" %}
-          <li class="item_tool">{{ item.item }}</li>
-        {% else %}
-          <li class="item_knowledge">{{ item.item }}</li>
-        {% endif %}
-        </ul>
-      {% endfor %}
-    </div>
-    {% endfor %}
-  </div>
+<section class="projects" aria-labelledby="projects-title">
+  <h2 id="projects-title">Projects</h2>
+  <p class="projects__intro">Some of the work I have done. Every project links to its code on GitHub.</p>
+  <ul class="projects__list">
+    {%- for project in site.data.projects %}
+    <li class="project">
+      <h3>{{ project.name | escape }}</h3>
+      <p class="project__links">
+        <a href="{{ project.github | escape }}">GitHub</a>
+        {%- if project.link %}
+        <a href="{{ project.link | escape }}">Link to project</a>
+        {%- endif %}
+      </p>
+      <p>{{ project.description | escape }}</p>
+    </li>
+    {%- endfor %}
+  </ul>
 </section>

@@ -1,23 +1,25 @@
-languages:
-  - item: Python
-  - item: Java
-  - item: SQL
+- group: Languages
+  items:
+    - Python
+    - Java
+    - SQL
 
-tools:
-  - item: Apache Airflow
-  - item: AWS Lambda
-  - item: AWS SQS
-  - item: Git, GitHub
-  - item: Docker
-  - item: SQL
-  - item: Junit
-  - item: Pytest
-  - item: MySQL
-  - item: PostreSQL
+- group: Tools
+  items:
+    - Apache Airflow
+    - AWS Lambda
+    - AWS SQS
+    - Git & GitHub
+    - Docker
+    - JUnit
+    - pytest
+    - MySQL
+    - PostgreSQL
 
-knowledge:
-  - item: API design
-  - item: System architecture
-  - item: Databases
-  - item: AWS/Google cloud
-  - item: Data pipelines
+- group: Knowledge
+  items:
+    - API design
+    - System architecture
+    - Databases
+    - AWS & Google Cloud
+    - Data pipelines

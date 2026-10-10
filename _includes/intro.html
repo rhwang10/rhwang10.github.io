@@ -1,24 +1,22 @@
-<header class="intro">
-  <h1 class="intro__hello">
-    <p class="line-1 anim-typewriter">Hello World!</p>
-  </h1>
-  <div class="night_mode">
-    <span class="emoji moon"></span>
-    <span>Late night? Click the moon to toggle night mode.</span>
+{%- assign linkedin = site.data.links | where: "name", "LinkedIn" | first -%}
+<header class="intro wrap">
+  <div>
+    <h1 class="hello"><span class="hello__text">Hello World!</span></h1>
+    <button class="theme-toggle" type="button">
+      <span class="theme-toggle__label theme-toggle__label--light"><span class="emoji" aria-hidden="true">🌙</span> Late night? Click the moon to toggle night mode.</span>
+      <span class="theme-toggle__label theme-toggle__label--dark"><span class="emoji" aria-hidden="true">☀️</span> Daylight again? Click the sun to toggle night mode.</span>
+    </button>
   </div>
-  <h2 class="intro__paragraph">
-    Welcome to my personal page! My name is <span class="name">Robert Hwang</span>. Coffee enthusiast + barista, big fan of autumn and autumn colors, freelance Discord bot engineer. Currently at <span class="name">Spotify</span>, working on creating the best music streaming experience possible.
-  </h2>
-  <a class="email_text" href="mailto:robert.t.hwang@gmail.com">
-    <span class="intro__contact">Let's chat!<span class="emoji email"></span></span>
-  </a>
-  <h3 class="intro__under">
-    <span>Python developer</span>
-    <span class="emoji snek"></span>
-    <div class="vertical_space"></div>
-    <span>Coffee Enthusiast</span>
-    <span class="emoji coffee"></span>
-    <div class="vertical_space"></div>
-    <span id="odometer" class="odometer">0</span><span class="odometer-text">cups of coffee consumed in 2021.</span>
-  </h3>
+
+  <div>
+    <p class="lede">
+      Welcome to my personal page! My name is <strong>Robert Hwang</strong>. Coffee enthusiast + barista, big fan of autumn and autumn colors, freelance Discord bot engineer. Currently at <strong>Spotify</strong>, working on creating the best music streaming experience possible.
+    </p>
+    <a class="chat" href="{{ linkedin.url | escape }}">Let's chat!<span class="emoji" aria-hidden="true">💬</span></a>
+  </div>
+
+  <ul class="tagline">
+    <li>Python developer<span class="emoji" aria-hidden="true">🐍</span></li>
+    <li>Coffee enthusiast<span class="emoji" aria-hidden="true">☕</span></li>
+  </ul>
 </header>

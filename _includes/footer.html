@@ -1,18 +1,8 @@
-<footer>
-  <div class="footer__contact">
-    <span>Thanks for scrolling through! Please feel free to reach out and contact me at
-      <a href="mailto:robert.t.hwang@gmail.com">
-        <span>robert.t.hwang@gmail.com.</span>
-      </a>
-    </span>
-    <div class="contact_total">
-      {% for contact in site.data.links %}
-        <div class="contact-link">
-          <a href="{{ contact.url }}" target="_blank">
-            <span>{{ contact.name }}</span>
-          </a>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
+<footer class="site-footer wrap">
+  <p>Thanks for scrolling through! Feel free to reach out and connect with me on LinkedIn.</p>
+  <ul class="site-footer__links">
+    {%- for link in site.data.links %}
+    <li><a href="{{ link.url | escape }}">{{ link.name | escape }}</a></li>
+    {%- endfor %}
+  </ul>
 </footer>

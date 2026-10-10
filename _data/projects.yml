@@ -1,94 +1,28 @@
 - name: Apache Airflow ES log handler improvements
   github: https://github.com/apache/airflow
-  description: Enhanced the existing elasticsearch log handler in the Apache Airflow project with capabitilities to make log messages more remote-storage friendly.
   link: https://issues.apache.org/jira/browse/AIRFLOW-3370
-  builtWith:
-    - item: Python
-      class: Language
-    - item: Apache Airflow
-      class: Tool
+  description: Enhanced the existing Elasticsearch log handler in the Apache Airflow project with capabilities to make log messages more remote-storage friendly.
 
 - name: New York Times Top News Dashboard
   github: https://github.com/rhwang10/news-dashboard
-  description: React single page application to display news cards from the Top News New York Times API.
-  link: https://nytimes-dashboard.herokuapp.com/
-  builtWith:
-    - item: Javascript
-      class: Language
-    - item: React
-      class: Tool
-    - item: New York Times Top News API
-      class: Knowledge
-    - item: Heroku
-      class: Knowledge
-    - item: Axios
-      class: Knowledge
+  description: React single-page application to display news cards from the Top News New York Times API.
 
-- name: GitHub Pages Personal website
+- name: GitHub Pages personal website
   github: https://github.com/rhwang10/rhwang10.github.io
-  description: GitHub pages personal website, the one you're currently looking at!
-  builtWith:
-    - item: HTML
-      class: Language
-    - item: CSS
-      class: Language
-    - item: Javascript
-      class: Language
-    - item: Jekyll
-      class: Tool
+  description: GitHub Pages personal website, the one you're currently looking at!
 
 - name: Cheetah
   github: https://github.com/rhwang10/cheetah
   description: Django application to securely authenticate a user with a personal login and their Spotify account, and import their playlist and song data.
-  builtWith:
-    - item: Python
-      class: Language
-    - item: Django
-      class: Tool
-    - item: Postgres
-      class: Tool
-    - item: Spotify API
-      class: Knowledge
 
 - name: newsSpot
   github: https://github.com/rhwang10/newsSpot
   description: Web application developed in the Vue.js framework to automagically link recently published NYTimes news articles to relevant Reddit threads.
-  builtWith:
-    - item: Javascript
-      class: Language
-    - item: Vue
-      class: Tool
-    - item: Axios
-      class: Knowledge
-    - item: Reddit Search API
-      class: Knowledge
-    - item: New York Times Developer API
-      class: Knowledge
 
-- name: Classifer Based Neural Networks
+- name: Classifier-based neural networks
   github: https://github.com/rhwang10/Classifier-based-Neural-Networks
-  description: Architecturing and developing a classifier based neural network, based on prior literature about deep forest techniques.
-  builtWith:
-    - item: Python
-      class: Language
-    - item: NumPy
-      class: Knowledge
-    - item: Scikit-learn
-      class: Knowledge
-    - item: Pandas
-      class: Knowledge
-    - item: Keras
-      class: Knowledge
+  description: Architecting and developing a classifier-based neural network, based on prior literature about deep forest techniques.
 
 - name: Classification of microarray data
   github: https://github.com/rhwang10/Comparative-performance-analysis-of-Key-classification-algorithms-on-Microarray-Data
   description: Comparing the performance of classification algorithms on diverse clinical microarray datasets.
-  builtWith:
-    - item: Python
-      class: Language
-    - item: NumPy
-      class: Knowledge
-    - item: Scikit-learn
-      class: Knowledge
-    - item: Matplotlib
-      class: Knowledge
